@@ -12421,6 +12421,26 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+header {
+  background-image: url(../img/Image_Sass_P1/hero-bg.jpg);
+  background-position-x: -10em;
+}
+header .div_header {
+  background-color: rgba(255, 255, 255, 0.515);
+  height: 35em;
+}
+header .div_header div {
+  padding-left: 20em;
+  padding-top: 17em;
+}
+header .div_header div .button_header {
+  border-radius: 0.2em;
+  color: white;
+  background-color: #106EEA;
+  border: none;
+  height: 2em;
+  width: 8em;
+}
 nav {
   height: 4em;
 }
