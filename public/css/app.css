@@ -12447,13 +12447,22 @@ header .div_header div .button_header {
 }
 .section_1 .div_section1 {
   text-align: center;
+  background-color: #F8F9FB;
+}
+.section_1 .div_section1 span {
+  width: 13em;
+  height: 2.5em;
+  padding-top: 0.7em;
 }
 
 .div_card {
+  margin-top: 2em;
   display: flex;
-  margin-left: 10em;
+  margin-left: 15em;
+  height: 15em;
+  width: 63em;
+  border-radius: 0.5em;
 }
-
 nav {
   height: 4em;
 }
