@@ -12441,6 +12441,19 @@ header .div_header div .button_header {
   height: 2em;
   width: 8em;
 }
+
+.section_1 {
+  margin-top: 3em;
+}
+.section_1 .div_section1 {
+  text-align: center;
+}
+
+.div_card {
+  display: flex;
+  margin-left: 10em;
+}
+
 nav {
   height: 4em;
 }
