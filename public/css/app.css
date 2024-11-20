@@ -12533,6 +12533,26 @@ readers do not read off random characters that represent icons */
   color: #3b3c3f;
 }
 
+.section_contact {
+  margin-top: 3em;
+}
+.section_contact div {
+  text-align: center;
+}
+.section_contact div span {
+  width: 8em;
+  height: 2em;
+  padding-top: 0.5em;
+}
+.section_contact div h2, .section_contact div .h2 {
+  margin-top: 0.5em;
+}
+.section_contact div h4, .section_contact div .h4 {
+  margin-top: 1em;
+  font-size: small;
+  color: #3b3c3f;
+}
+
 header {
   background-image: url(../img/Image_Sass_P1/hero-bg.jpg);
   background-position-x: -10em;
