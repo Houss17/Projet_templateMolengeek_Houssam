@@ -12553,6 +12553,20 @@ readers do not read off random characters that represent icons */
   color: #3b3c3f;
 }
 
+footer {
+  background-color: #F1F6FE;
+  height: 5em;
+}
+footer .div_footer {
+  display: flex;
+  margin-left: 18em;
+  gap: 25em;
+  padding-top: 2em;
+}
+footer .div_footer p {
+  color: rgba(84, 76, 76, 0.836);
+}
+
 header {
   background-image: url(../img/Image_Sass_P1/hero-bg.jpg);
   background-position-x: -10em;
