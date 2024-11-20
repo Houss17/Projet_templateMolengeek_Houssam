@@ -16,7 +16,7 @@
 
           <a style="margin-left: 10em;" class="navbar-brand fw-bolder fs-3" href="#">MolenGeek<span class="text-primary">.</span></a>
           <div style="margin-left: 13em;" class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav fs-7">
+            <ul class="navbar-nav fs-7" >
 <!-- pour chaque li j'ai rajouter un p-lg pour separer chaque li "gap" -->
               <li class="nav-item p-lg-2">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -46,7 +46,7 @@
             <div>
                 <h1>Welcome to <span class="text-primary fw-bolder">MolenGeek</span></h1>
                 <p>Mon projet du vendredi</p>
-                <button class="button_header "><span>GET STARTED</span></button>
+                <button class="button_header "><span style="font-size: small; font-weight: normal;">GET STARTED</span></button>
             </div>
     </header>
 <!-- section 1 -->
@@ -56,28 +56,31 @@
             <h2>Read <span class="text-primary">Featured Services</span></h2>
         </div>
     <!-- card -->
-        <div class="div_card">
-            <div class="card" style="width: 18rem;">
+        <div class="div_card gap-4">
+            <div class="card" style="width: 16rem ;">
             <div class="parti_card" class="card-body">
-                <i class="fa-solid fa-basketball"></i>
+                <i class="fa-solid fa-basketball text-primary"></i>
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturia</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div class="card" style="width: 16rem;">
+                <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-file text-primary"></i>
                 <h5 class="card-title ">Sed ut perspiciatis</h5>
-                <p class="card-text">Magni D tque et quas Duis aute irure dolor in reprehenderit in voluptate veli</p>
+                <p class="card-text">Magni D tque et quas Duis aute irure dolor in reprehenderit in voluptate </p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div class="card" style="width: 16rem;">
+                <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-gauge text-primary"></i>
                 <h5 class="card-title">Magni Dolores</h5>
-                <p class="card-text">Enim At vero eas et lor in Oluptate olore Excepteur sint occaecat cupidatat non </p>
+                <p class="card-text">Enim At vero eas et lor in Oluptate olore Excepteur sint occaecat cupidatat</p>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
+            <div class="card" style="width: 16rem;">
+                <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-earth-americas text-primary"></i>
                 <h5 class="card-title">Nemo Enima</h5>
                 <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                 </div>
@@ -85,6 +88,30 @@
         </div>
 
     </section>
+<!-- carousel -->
+
+    <section class="section_testimonial">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./public/img/Image_Sass_P1/testi.jpg" class="d-block w-100" alt="Testimonial 1">
+              <div class="carousel-caption" class="div_h3_p">
+                <h3 class="fw-bolder"><span class="text-primary">Testimonial 3</span></h3>
+                <p style="font-size:small;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum rerum consequatur quisquam esse repellendus! Animi fugiat distinctio quis ratione iure aliquam, porro repudiandae minima<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus molestias reprehenderit tenetur pariatur voluptatum alias. Maxime impedit optio quas eius veritatis dolore </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          </button>
+        </div>
+      </section>
+      
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>

@@ -12444,10 +12444,11 @@ header .div_header div .button_header {
 
 .section_1 {
   margin-top: 3em;
+  background-color: #F8F9FB;
+  height: 25em;
 }
 .section_1 .div_section1 {
   text-align: center;
-  background-color: #F8F9FB;
 }
 .section_1 .div_section1 span {
   width: 13em;
@@ -12460,9 +12461,30 @@ header .div_header div .button_header {
   display: flex;
   margin-left: 15em;
   height: 15em;
-  width: 63em;
   border-radius: 0.5em;
 }
+.div_card .parti_card {
+  padding: 2em;
+}
+.div_card .parti_card i {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.div_card .parti_card h5, .div_card .parti_card .h5 {
+  margin-bottom: 0.5em;
+}
+
+.section_testimonial div {
+  height: 25em;
+  bottom-top: 10em;
+}
+.section_testimonial div div div div h3, .section_testimonial div div div div .h3 {
+  padding-top: 4em;
+}
+.section_testimonial div div div div p {
+  padding-top: 2em;
+}
+
 nav {
   height: 4em;
 }
