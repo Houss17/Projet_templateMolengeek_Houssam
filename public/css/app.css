@@ -12421,6 +12421,95 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+section {
+  margin-top: 3em;
+}
+section .div_service {
+  text-align: center;
+}
+section .div_service span {
+  width: 8em;
+  height: 2em;
+  padding-top: 0.5em;
+}
+section .div_service h2, section .div_service .h2 {
+  margin-top: 0.5em;
+}
+section .div_service h4, section .div_service .h4 {
+  margin-top: 1em;
+  font-size: small;
+  color: #3b3c3f;
+}
+
+.section_card_service {
+  margin-top: -1em;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+.section_card_service div {
+  text-align: center;
+  height: 18em;
+  margin-top: 2em;
+  padding-left: 0.4em;
+  margin-right: 0.4em;
+}
+.section_card_service div i {
+  margin-top: 1.5em;
+  background-color: #F1F6FE;
+  height: 3em;
+  width: 3em;
+  border-radius: 0.5em;
+  border: 1px solid #bed0ed;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+.section_card_service div .div_service_p {
+  padding-bottom: 2em;
+}
+.section_card_service div .div_service_p h5, .section_card_service div .div_service_p .h5 {
+  margin-top: 1em;
+  font-weight: bolder;
+}
+.section_card_service div .div_service_p p {
+  font-size: small;
+  flex-wrap: wrap;
+}
+
+.parti_2_card {
+  margin-top: -1em;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+.parti_2_card div {
+  text-align: center;
+  height: 18em;
+  margin-top: 2em;
+  padding-left: 0.4em;
+  margin-right: 0.4em;
+}
+.parti_2_card div i {
+  margin-top: 1.5em;
+  background-color: #F1F6FE;
+  height: 3em;
+  width: 3em;
+  border-radius: 0.5em;
+  border: 1px solid #bed0ed;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+.parti_2_card div .div_service_p {
+  padding-bottom: 2em;
+}
+.parti_2_card div .div_service_p h5, .parti_2_card div .div_service_p .h5 {
+  margin-top: 1em;
+  font-weight: bolder;
+}
+.parti_2_card div .div_service_p p {
+  font-size: small;
+}
+
 header {
   background-image: url(../img/Image_Sass_P1/hero-bg.jpg);
   background-position-x: -10em;
