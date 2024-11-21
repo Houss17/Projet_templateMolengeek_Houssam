@@ -12533,6 +12533,10 @@ readers do not read off random characters that represent icons */
   color: #3b3c3f;
 }
 
+section {
+  background-color: rgba(248, 248, 248, 0.9098039216);
+}
+
 .section_contact {
   margin-top: 3em;
 }
@@ -12579,13 +12583,20 @@ readers do not read off random characters that represent icons */
 }
 .section_contact_fin div {
   display: flex;
-  gap: 1.5;
 }
 .section_contact_fin div .div_loc {
   margin-left: 15em;
 }
+.section_contact_fin div div {
+  background-color: white;
+  margin-left: 1.5em;
+  display: block;
+  margin-right: 1.5em;
+  margin-top: 1.5em;
+}
 
 footer {
+  margin-top: 5em;
   background-color: #F1F6FE;
   height: 5em;
 }
