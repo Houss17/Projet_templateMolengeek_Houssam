@@ -12583,6 +12583,7 @@ section {
 }
 .section_contact_fin div {
   display: flex;
+  flex-wrap: wrap;
 }
 .section_contact_fin div .div_loc {
   margin-left: 15em;
@@ -12602,8 +12603,7 @@ footer {
 }
 footer .div_footer {
   display: flex;
-  margin-left: 18em;
-  gap: 25em;
+  justify-content: space-evenly;
   padding-top: 2em;
 }
 footer .div_footer p {
@@ -12675,10 +12675,6 @@ header .div_header div .button_header {
 }
 .section_testimonial div div div div p {
   padding-top: 2em;
-}
-
-nav {
-  height: 4em;
 }
 
 /*!
