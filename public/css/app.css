@@ -12421,6 +12421,87 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+footer {
+  margin-top: 5em;
+  background-color: #F1F6FE;
+  height: 5em;
+}
+footer .div_footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2em;
+}
+footer .div_footer p {
+  color: rgba(84, 76, 76, 0.836);
+}
+
+header {
+  background-image: url(../img/Image_Sass_P1/hero-bg.jpg);
+  background-position-x: -10em;
+}
+header .div_header {
+  background-color: rgba(255, 255, 255, 0.59);
+  height: 35em;
+}
+header .div_header div {
+  padding-left: 20em;
+  padding-top: 17em;
+}
+header .div_header div .button_header {
+  border-radius: 0.2em;
+  color: white;
+  background-color: #106EEA;
+  border: none;
+  height: 2em;
+  width: 8em;
+}
+
+.section_1 {
+  margin-top: 3em;
+  background-color: #F8F9FB;
+  height: 25em;
+}
+.section_1 .div_section1 {
+  text-align: center;
+}
+.section_1 .div_section1 span {
+  width: 13em;
+  height: 2.5em;
+  padding-top: 0.7em;
+}
+
+.div_card {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  height: 13em;
+  border-radius: 0.5em;
+}
+.div_card .parti_card {
+  padding: 2em;
+}
+.div_card .parti_card i {
+  font-size: 2.3em;
+  margin-bottom: 0.5em;
+}
+.div_card .parti_card h5, .div_card .parti_card .h5 {
+  margin-bottom: 0.5em;
+}
+.div_card .parti_card p {
+  font-size: small;
+}
+
+.section_testimonial div {
+  height: 25em;
+  bottom-top: 10em;
+}
+.section_testimonial div div div div h3, .section_testimonial div div div div .h3 {
+  padding-top: 4em;
+}
+.section_testimonial div div div div p {
+  padding-top: 2em;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
