@@ -12553,6 +12553,21 @@ readers do not read off random characters that represent icons */
   color: #3b3c3f;
 }
 
+.div_contact {
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  height: 11em;
+}
+.div_contact div {
+  text-align: center;
+  padding-top: 0.8em;
+}
+.div_contact div div i {
+  font-size: 1.8em;
+}
+
 footer {
   background-color: #F1F6FE;
   height: 5em;
@@ -12605,7 +12620,7 @@ header .div_header div .button_header {
 .div_card {
   margin-top: 2em;
   display: flex;
-  margin-left: 15em;
+  justify-content: center;
   height: 15em;
   border-radius: 0.5em;
 }
@@ -12613,11 +12628,14 @@ header .div_header div .button_header {
   padding: 2em;
 }
 .div_card .parti_card i {
-  font-size: 2.5em;
+  font-size: 2.3em;
   margin-bottom: 0.5em;
 }
 .div_card .parti_card h5, .div_card .parti_card .h5 {
   margin-bottom: 0.5em;
+}
+.div_card .parti_card p {
+  font-size: small;
 }
 
 .section_testimonial div {
