@@ -12574,6 +12574,17 @@ readers do not read off random characters that represent icons */
   padding: 0.5em;
 }
 
+.section_contact_fin {
+  margin-top: 1.5em;
+}
+.section_contact_fin div {
+  display: flex;
+  gap: 1.5;
+}
+.section_contact_fin div .div_loc {
+  margin-left: 15em;
+}
+
 footer {
   background-color: #F1F6FE;
   height: 5em;
