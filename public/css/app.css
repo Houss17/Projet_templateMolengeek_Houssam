@@ -12421,10 +12421,8 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.section_service {
-  margin-top: 3em;
-}
 .section_service .div_service {
+  padding-top: 3em;
   text-align: center;
 }
 .section_service .div_service span {
@@ -12460,7 +12458,7 @@ readers do not read off random characters that represent icons */
   height: 3em;
   width: 3em;
   border-radius: 0.5em;
-  border: 1px solid #bed0ed;
+  border: 0px solid #bed0ed;
   font-size: 1.5em;
   padding-top: 1em;
 }
@@ -12477,7 +12475,6 @@ readers do not read off random characters that represent icons */
 }
 
 .parti_2_card {
-  margin-top: -2em;
   display: flex;
   justify-content: center;
   gap: 1.5em;
@@ -12496,7 +12493,7 @@ readers do not read off random characters that represent icons */
   height: 3em;
   width: 3em;
   border-radius: 0.5em;
-  border: 1px solid #bed0ed;
+  border: 0px solid #bed0ed;
   font-size: 1.5em;
   padding-top: 1em;
 }
@@ -12512,7 +12509,6 @@ readers do not read off random characters that represent icons */
 }
 
 .section_team {
-  margin-top: 1em;
   background-color: #F6F9FE;
 }
 .section_team .div_team {
@@ -12538,7 +12534,7 @@ section {
 }
 
 .section_contact {
-  margin-top: 3em;
+  padding-top: 3em;
 }
 .section_contact div {
   text-align: center;
@@ -12597,36 +12593,46 @@ section {
 }
 
 @media (max-width: 768px) {
+  .div_card {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
   .section_card_service {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
   .parti_2_card {
-    margin-top: 3em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
   .div_contact {
     height: auto;
     flex-wrap: wrap;
   }
+  .div_4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 footer {
   margin-top: 5em;
   background-color: #F1F6FE;
-  height: 5em;
+  height: 3.5em;
 }
 footer .div_footer {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 footer .div_footer p {
   color: rgba(84, 76, 76, 0.836);
+  font-size: small;
 }
 
 header {
@@ -12635,11 +12641,11 @@ header {
 }
 header .div_header {
   background-color: rgba(255, 255, 255, 0.59);
-  height: 35em;
+  height: 42em;
 }
 header .div_header div {
-  padding-left: 20em;
-  padding-top: 17em;
+  padding-left: 22em;
+  padding-top: 20em;
 }
 header .div_header div .button_header {
   border-radius: 0.2em;
@@ -12651,11 +12657,11 @@ header .div_header div .button_header {
 }
 
 .section_1 {
-  margin-top: 3em;
   background-color: #F8F9FB;
-  height: 25em;
+  height: 35em;
 }
 .section_1 .div_section1 {
+  padding-top: 3em;
   text-align: center;
 }
 .section_1 .div_section1 span {
@@ -12670,6 +12676,7 @@ header .div_header div .button_header {
   justify-content: center;
   height: 13em;
   border-radius: 0.5em;
+  border: 0px solid #F8F9FB;
 }
 .div_card .parti_card {
   padding: 2em;
@@ -12680,9 +12687,10 @@ header .div_header div .button_header {
 }
 .div_card .parti_card h5, .div_card .parti_card .h5 {
   margin-bottom: 0.5em;
+  font-size: 1em;
 }
 .div_card .parti_card p {
-  font-size: small;
+  font-size: 0.7em;
 }
 
 .section_testimonial div {
@@ -12690,10 +12698,10 @@ header .div_header div .button_header {
   bottom-top: 10em;
 }
 .section_testimonial div div div div h3, .section_testimonial div div div div .h3 {
-  padding-top: 4em;
+  padding-top: 4.5em;
 }
 .section_testimonial div div div div p {
-  padding-top: 2em;
+  padding-top: 3.5em;
 }
 
 /*!

@@ -1,7 +1,8 @@
 // service
 .section_service
-    margin-top: 3em
+    
     .div_service
+        padding-top: 3em
         text-align: center //centré le texte 
         span
             width: 8em //rajoute de la largeur a mon background
@@ -33,7 +34,7 @@
             height: 3em //donner une hauteur au bg
             width: 3em //donne une largeur au bg
             border-radius: 0.5em
-            border: 1px solid #bed0ed
+            border: 0px solid #bed0ed
             font-size: 1.5em // aggrandir la taille de l'icone
             padding-top: 1em
 
@@ -47,7 +48,6 @@
                 flex-wrap: wrap
 
 .parti_2_card
-    margin-top: -2em
     display: flex //display flex pour les card afin de ce mettre sur la meme ligne
     justify-content: center //centre la section compléte au centre
     gap: 1.5em
@@ -66,7 +66,7 @@
             height: 3em //donner une hauteur au bg
             width: 3em //donne une largeur au bg
             border-radius: 0.5em
-            border: 1px solid #bed0ed
+            border: 0px solid #bed0ed
             font-size: 1.5em // aggrandir la taille de l'icone
             padding-top: 1em
 
@@ -82,7 +82,6 @@
 
 // team
 .section_team
-    margin-top: 1em
     background-color:#F6F9FE
         
     .div_team
@@ -106,7 +105,7 @@
 section
     background-color:#f8f8f8e8
 .section_contact
-    margin-top: 3em
+    padding-top: 3em
     
     div
         text-align: center //centré le texte 
@@ -169,21 +168,27 @@ section
 
 @media (max-width:768px)
     .div_card
-
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
     .section_card_service
         display: flex
+        flex-wrap: wrap
         justify-content: center
-        flex-direction: column
-        align-items: center
+        flex-direction: row
        
     .parti_2_card
-        margin-top: 3em
         display: flex
+        flex-wrap: wrap
         justify-content: center
-        flex-direction: column
-        align-items: center
+        flex-direction: row
+
     .div_contact
         height: auto
         flex-wrap: wrap
     .section_contact_fin
-      
+    
+    .div_4
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row

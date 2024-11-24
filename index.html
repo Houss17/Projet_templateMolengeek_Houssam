@@ -10,32 +10,52 @@
 </head>
 <body>
    
-<!-- nav bar -->
-    <nav class="container navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-evenly">
-          <a class="navbar-brand fw-bolder fs-3" href="#">MolenGeek<span class="text-primary">.</span></a>
-            <ul class="navbar-nav fs-7" >
-<!-- pour chaque li j'ai rajouter un p-lg pour separer chaque li "gap" -->
-              <li class="nav-item p-lg-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item p-lg-2">     
-                <a class="nav-link active" href="#">Features</a>
-              </li>
-              <li class="nav-item p-lg-2">
-                <a class="nav-link active" href="#">Testimonials</a>
-              </li>
-              <li class="nav-item p-lg-2">
-                <a class="nav-link active" aria-disabled="true">Services</a>
-              </li>
-              <li class="nav-item p-lg-2">
-                <a class="nav-link active" aria-disabled="true">Team</a>
-              </li>
-              <li class="nav-item p-lg-2">
-                <a class="nav-link active" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-          </div>
-      </nav>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand fw-bolder fs-3" href="#">MolenGeek<span class="text-primary">.</span></a>
+  
+      <!-- Toggle button for mobile view -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Added `mx-lg-2` for spacing on larger screens -->
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
 <!-- header -->
     <header>
         <div class="div_header">
@@ -53,28 +73,28 @@
         </div>
     <!-- card -->
         <div class="div_card gap-4">
-            <div class="card" style="width: 15rem ; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+            <div class="card" style="width: 14rem ; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
             <div class="parti_card" class="card-body">
                 <i class="fa-solid fa-basketball text-primary"></i>
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturia</p>
                 </div>
             </div>
-            <div class="card" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+            <div class="card" style="width: 14rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
                 <div class="parti_card" class="card-body">
                 <i class="fa-solid fa-file text-primary"></i>
                 <h5 class="card-title ">Sed ut perspiciatis</h5>
                 <p class="card-text">Magni D tque et quas Duis aute irure dolor in reprehenderit in voluptate </p>
                 </div>
             </div>
-            <div class="card" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+            <div class="card" style="width: 14rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
                 <div class="parti_card" class="card-body">
                 <i class="fa-solid fa-gauge text-primary"></i>
                 <h5 class="card-title">Magni Dolores</h5>
                 <p class="card-text">Enim At vero eas et lor in Oluptate olore Excepteur sint occaecat cupidatat</p>
                 </div>
             </div>
-            <div class="card" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+            <div class="card" style="width: 14rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
                 <div class="parti_card" class="card-body">
                 <i class="fa-solid fa-earth-americas text-primary"></i>
                 <h5 class="card-title">Nemo Enima</h5>
@@ -254,10 +274,10 @@
         <section class="section_contact_fin">
             <div>
                 <div class="div_loc">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5037.387476117493!2d4.338645076428903!3d50.85535537167229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1732182028195!5m2!1sfr!2sbe" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5037.387476117493!2d4.338645076428903!3d50.85535537167229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1732182028195!5m2!1sfr!2sbe" width="500" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div>
-                    <div class="mb-3 d-flex  " style="gap: 0.5em; ">
+                    <div class="mb-3 d-flex " style="gap: 0.5em; ">
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" style="border-radius: 0">
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email" style="border-radius: 0">
                       </div>
